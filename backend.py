@@ -152,7 +152,7 @@ async def on_reaction_add(reaction, user):
     channel = reaction.message.channel
     if reaction.message.author == bot.user:
         print(user)
-        message = """You have registered to {}.\n\nTime: {}\n\nLocation: {}""".format(Event.Title, Event.time, Event.LocationArea)
+        message = """You have registered to {}.\n\nTime: {}\n\nLocation: {}""".format(Event.Title, Event.Time, Event.LocationArea)
 
         embed = discord.Embed(title=message)
         await user.send(embed=embed)
