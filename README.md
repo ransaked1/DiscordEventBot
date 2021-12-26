@@ -1,4 +1,4 @@
-# StateEventBot
+# DiscordEventBot
 
 Nanohack project developed in less than 10h by our team of 3. The hackathon was organized in October at the University of Southampton as part of the introduction week. 
 
